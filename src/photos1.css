@@ -1,0 +1,27 @@
+.photosc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .heading {
+    text-align: center;
+    color: red;
+    background-color: lightskyblue;
+  }
+  
+  .photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .photos img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+  }
+  

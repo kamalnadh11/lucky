@@ -1,0 +1,17 @@
+.card{
+    height: 250px;
+    width: 250px;
+    background-color: pink;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+  }
+  .card:hover{
+    transform:scale(1.08);
+    cursor: pointer;
+    background-color: lightskyblue;
+    color:brown;
+  }
